@@ -1,0 +1,202 @@
+*{
+    margin: 0%;
+}
+.header{
+    height: 25vh;
+    background-image:linear-gradient(rgb(0 0 0/0.4),rgb(0 0 0/0.4)), url('https://www.engage.veented.com/bakery/wp-content/uploads/sites/27/2017/04/drew-coffman-1872.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    
+}
+.nav-a a{
+    text-decoration: none;
+    margin-inline: 15px;
+    font-size: 18px;
+    color: rgb(159, 90, 86);
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    
+
+}
+.nav-a a:hover{
+    color: chocolate;
+    transition: all 0.5s;
+
+}
+.nav-img{
+    width: 180px;
+}
+.title{
+    height: 25vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title h1{
+    margin-top: 10vh;
+    font-size: 55px;
+    color: #ffffff;
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+   
+}
+.offer{
+    height: 100vh;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.contanier1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contanier2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contanier3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contanier4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box{
+    width: 25%;
+    height: 200px;
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    
+}
+.box-in{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 19px;
+    color: #303030;
+    font-weight: lighter;
+}
+.box-in2{
+    margin-top: 20px;
+    font-size: 18px;
+    color: #686868;
+
+}
+.footer-1{
+    height: 60vh;
+    background-color: rgb(64, 61, 56);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.box-footer{
+    width: 24%;
+    height: 300px;
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+.box-footer h3{
+    padding-left: 30px;
+    margin-bottom: 25px;
+    color: #ffffff;
+    font-size: 20px;
+}
+.box-footer p{
+    padding-left: 30px;
+    margin-bottom: 20px;
+    color: #969696;
+    font-size: 18px;
+}
+.box4{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.footer-list{
+    display: flex;
+    
+}
+.footer-list i{
+    padding-left: 30px;
+    margin-inline: 10px;
+    margin-bottom: 35px;
+    width: 30px;
+    color: #969696;
+}
+.footer-list a{
+    text-decoration: none;
+     color: #969696;
+    font-size: 18px;
+}
+.footer2{
+    height: 40vh;
+    background-color: #353330;
+}
+.img-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 15px;
+    color: #777777;
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.link-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.link-footer i{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #777777;
+    background-color: #484540;
+    margin-inline: 5px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.link-footer a{
+    text-decoration: none;
+}
+.link-footer i:hover{
+    color: white;
+    background-color: rgb(0, 100, 255);
+}

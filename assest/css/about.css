@@ -1,0 +1,301 @@
+*{
+    margin: 0%;
+
+}
+.header{
+    height: 30vh;
+    position: relative;
+
+}
+.navbar{
+    display: flex;
+    z-index: 3;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+.nav-a a{
+    text-decoration: none;
+    margin-inline: 15px;
+    font-size: 18px;
+    color: rgb(255, 179, 0);
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    
+
+}
+.nav-a a:hover{
+    color: chocolate;
+    transition: all 0.5s;
+
+}
+.nav-img{
+    width: 180px;
+    
+}
+.title{
+    height: 25vh;
+    background-image:linear-gradient(rgb(0 0 0/0.4)), url('https://www.engage.veented.com/bakery/wp-content/uploads/sites/27/2017/04/drew-coffman-1872.jpg');
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal; 
+    
+}
+.title h1{
+    
+    font-size: 45px;
+    padding-top: 10px;
+
+}
+.title p{
+    font-size: 18px;
+}
+.our-story{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.story-img{
+    padding-right: 25px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.story-img img{
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+}
+.story-para{
+    padding-right: 200px;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    color: #606060;
+}
+.story-para h2{
+    font-size: 45px;
+    margin-bottom: 50px;
+    font-weight: lighter;
+    color: #303030;
+}
+.story-para p{
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.our-bakery{
+    height: 100vh;
+
+}
+.iqon{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: rgb(142, 119, 84);
+
+}
+.bakery-title{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    color: #303030;
+}
+.bakery-para{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    color: #888888;
+}
+.contanier-box1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contanier-box2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box{
+    width: 30%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    
+}
+.box h3{
+    font-size: 20px;
+    color: #303030;
+    margin-bottom: 20px;
+}
+.box p{
+    font-size: 18px;
+    color: #686868;
+}
+.like{
+    height: 50vh;
+    background-color: rgb(142, 119, 84);
+}
+.contanier-like{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.like-box{
+    margin-top: 40px;
+    width: 24%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 40px;
+
+}
+
+
+.like-box i{
+    margin-bottom: 30px;
+}
+.like-box h4{
+    margin-bottom: 30px;
+}
+.footer-1{
+    height: 60vh;
+    background-color: rgb(64, 61, 56);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.box-footer{
+    width: 24%;
+    height: 300px;
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+.box-footer h3{
+    padding-left: 30px;
+    margin-bottom: 25px;
+    color: #ffffff;
+    font-size: 20px;
+}
+.box-footer p{
+    padding-left: 30px;
+    margin-bottom: 20px;
+    color: #969696;
+    font-size: 18px;
+}
+.box4{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.footer-list{
+    display: flex;
+    
+}
+.footer-list i{
+    padding-left: 30px;
+    margin-inline: 10px;
+    margin-bottom: 35px;
+    width: 30px;
+    color: #969696;
+}
+.footer-list a{
+    text-decoration: none;
+     color: #969696;
+    font-size: 18px;
+}
+.footer2{
+    height: 40vh;
+    background-color: #353330;
+}
+.img-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 15px;
+    color: #777777;
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.link-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.link-footer i{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #777777;
+    background-color: #484540;
+    margin-inline: 5px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.link-footer a{
+    text-decoration: none;
+}
+.link-footer i:hover{
+    color: white;
+    background-color: rgb(0, 100, 255);
+}
